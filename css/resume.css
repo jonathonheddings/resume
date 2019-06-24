@@ -26,6 +26,9 @@
     li:not(:last-child){
         margin-bottom: -1px;
     }
+	.container.print{
+		margin-bottom: 0px !important;
+	}
 }
 
 @page {
@@ -55,6 +58,7 @@ body {
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: none !important;
+	margin-bottom: 30px;
 }
 
 .container.print a {
