@@ -1,43 +1,55 @@
 @media print {
-    .after-page-break{
-        margin-top:1cm;
+    .after-page-break {
+        margin-top: 1cm;
     }
+
     .container.print>header {
         display: table-header-group;
     }
+
     .container.print>main {
         display: table-row-group;
     }
+
     .container.print>footer {
         display: table-footer-group;
     }
+
     .page-number:after {
         content: counter(page);
     }
-    .container.print{
+
+    .container.print {
         margin-top: 1cm;
     }
+
     .footer {
         display: none;
     }
-    .no-print, .alert{
+
+    .no-print,
+    .alert {
         display: none !important;
     }
-    li:not(:last-child){
+
+    li:not(:last-child) {
         margin-bottom: -1px;
     }
-	.container.print{
-		margin-bottom: 0px !important;
-	}
+
+    .container.print {
+        margin-bottom: 0px !important;
+    }
 }
 
 @page {
     margin: 1cm;
     size: letter;
     counter-increment: page;
+
     @top-center {
         content: element(header);
     }
+
     @bottom-center {
         content: element(footer);
     }
@@ -58,7 +70,7 @@ body {
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: none !important;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .container.print a {
@@ -99,7 +111,7 @@ body {
 }
 
 .container.print .table-sm {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .fa.fa-github {
@@ -126,15 +138,18 @@ tr,
     display: inline-block;
     white-space: nowrap;
 }
-footer{
+
+footer {
     display: none
 }
+
 /*header div.row {
     margin-top:1cm;
 }*/
 .alert {
-    margin-top:20px;
+    margin-top: 20px;
 }
+
 .text-center {
     text-align: center;
 }
