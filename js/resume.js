@@ -95,7 +95,7 @@ function viewModel() {
                         "Fall 2014 - May 2018"
                     ],
                     bullets: [
-                        "Computer Science graduated Magna Cum Laude",
+                        "Graduated with a Bachelor of Science in Computer Science, Magna Cum Laude",
                         "Vice President of Computer Science Student Advisory Board", [
                             "~Helped the department choose new faculty members",
                             "~Helped out with events, such as local hack day, for prospective and current computer science students"
