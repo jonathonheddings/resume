@@ -45,7 +45,7 @@ function viewModel() {
                     ],
                     bullets: [
                         "Created multiple high quality maps using ArcGIS Pro and shapefiles of Virginia's highways, interstates, and counties.",
-                        "Analyzed multiple Economic Impact Reports done on infrasture projects undertaken throughout the Economic Development Region", 
+                        "Analyzed multiple Economic Impact Reports done on infrasture projects undertaken throughout the Economic Development Region"
                            
                     ]
                 },
@@ -62,14 +62,10 @@ function viewModel() {
                     ],
                     bullets: [
                         "Graduated with a Bachelor of Science in Economics, Summa Cum Laude",
-                        "Vice President of Computer Science Student Advisory Board", [
-                            "~Helped the department choose new faculty members",
-                            "~Helped out with events, such as local hack day, for prospective and current computer science students"
-                        ],
-                        // "Favorite Courses Taken:"
+                        "Vice President of Computer Science Student Advisory Board"
+                    
                     ],
-                    // list: ["Theory of Computation", "Operating Systems", "Interactive Virtual Worlds"],
-                    // list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
+           
                 },
                 {
                     header: [
@@ -84,14 +80,7 @@ function viewModel() {
                 }
             ]
         },
-        // {
-        //     header: ["Skills"],
-        //     subsections: [{
-        //         list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "TypeScript", "Angular2", "Aurelia", "C#", "Knockout.JS", "JavaFX", "Spring",
-        //             "Python", "Django", "Docker", "Unity", "Android", "Oracle SQL"
-        //         ]
-        //     }]
-        // },
+        
         {
             header: ["Prominent Projects"],
             subsections: [{
