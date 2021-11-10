@@ -1,9 +1,5 @@
 # Resume
-I got sick of fixing the formatting on my resume every time I needed to edit a section.
-
-You can see the result [here](http://quarkw.github.io/resume/).
-
-This resume is based on this [wonderful advice from LifeClever](http://www.lifeclever.com/give-your-resume-a-face-lift/).
+Forked From quarkw, just a basic Resume Template for Github Pages the following text is from the original author.
 
 # Usage
 * Fork/clone this, and replace the info in resume.js with your own!
