@@ -12,8 +12,8 @@ function viewModel() {
             header: ["Employment"],
             subsections: [{
                     header: [
-                        "Freelance Editor//Social Media Administrator",
-                        "At How-To-Geek LLC",
+                        "Freelance Editor/Social Media Administrator At How-To-Geek LLC",
+                        
                         "July 2019 - Present",
                     ],
                     bullets: [
