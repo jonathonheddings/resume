@@ -1,101 +1,67 @@
 function viewModel() {
-    this.firstName = "Quark";
-    this.lastName = "Wei";
+    this.firstName = "Jonathon";
+    this.lastName = "Heddings";
     this.fullName = this.firstName + " " + this.lastName;
 
     this.phone = "";
-    this.email = "quark.j.wei@gmail.com";
-    this.github = "github.com/quarkw";
-    this.website = "quarkw.github.io/resume"
+    this.email = "";
+    this.github = "github.com/jonathonheddings";
+    this.website = "jonathonheddings.github.io/resume"
 
     this.sections = [{
             header: ["Employment"],
             subsections: [{
                     header: [
-                        "Seattle, WA",
-                        "Amazon FinTech",
-                        "July 2018 - Present"
+                        "Freelance Editor//Social Media Administrator",
+                        "At How-To-Geek LLC"
+                        "July 2019 - Present"
+                        "Website: https://www.reviewgeek.com/author/jonathonheddings/"
+
                     ],
                     bullets: [
-                        "Work on and improve the accuracy of a datapipeline that uses Apache Spark SQL on EMR to process financial data, allowing Amazon to make more agile financial decisions",
-                        "Received org-wide \"Needle Mover\" award within first four months for architecting and implementing a modular, configurable data pipeline",
-                        "Decreased EMR costs by ~$6000 per month by proposing and implementing a change to increase efficiency in EMR utilization",
-                        "Created a tool to decrease data backfill times by a factor of 10x, increasing efficiency of data engineering tasks"
+                        "Written 40+ articles on consumer products and various techy things for a popular consumer website.",
+                        "Managed Amazon Syndication for hundreds of consumer articles partnered with Amazon.com and moderated social media groups for ReviewGeek.",
+                        "Managed Community Outreach Online Groups for the brand."
                     ]
                 },
                 {
                     header: [
-                        "Seattle, WA",
-                        "Amazon AWS EC2",
-                        "Summer 2017"
+                        "Assistant Manager Domino’s Pizza LLC",
+                        "August 2016 - August 2019",
+                    
                     ],
                     bullets: [
-                        "Created a data-visualization dashboard to track capacity of servers in EC2, that processes hundreds of GB of new data per day", [
-                            "~Created a service to constantly process data dumps in S3 located across multiple AWS regions",
-                            "~Used by managers to gain useful business insights into EC2 status, which previously required digging through slow and scattered web pages"
-                        ]
+                        "Managed a group of 10 to 20 employees depending on the year, that included hiring, training, and day to day activities.  "
+                            "Managed inventory, food and labor costs, kept track of our profit and loss statements, and implemented policies to correct problems",
+                            "Learned how to spin pizzas with just one hand"
                     ]
                 },
+                
                 {
                     header: [
-                        "Richmond, VA",
-                        "Capital One",
-                        "Fall 2016 - Spring 2018"
+                        "Economics Internship",
+                        "Virginia's Gateway Region",
+                        "March 2021 - June 2021"
                     ],
                     bullets: [
-                        "Created a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
-                            "~Worked on a dual-track agile team with two-week-long sprints",
-                            "~Created Angular2 components for visualization of data",
-                            "Designed MongoDB schema for the app and created a RESTful API to restrict access to the database"
-                        ]
+                        "Created multiple high quality maps using ArcGIS Pro and shapefiles of Virginia's highways, interstates, and counties.",
+                        "Analyzed multiple Economic Impact Reports done on infrasture projects undertaken throughout the Economic Development Region", 
+                           
                     ]
                 },
-                {
-                    header: [
-                        "Richmond, VA",
-                        "VCU Labs & Classrooms Computing ",
-                        "Fall 2014 - Spring 2017"
-                    ],
-                    bullets: [
-                        "Created Idle Actions chrome extension for computer lab security",
-                        "Worked on an electron app, utilizing Knockout.js, to facilitate the naming and setup of new computer lab machines", [
-                            "Uses active directory for authentication",
-                            "Uses Chocolatey to install packages, tying in with the Proget API to pull a list of internally hosted applications"
-                        ]
-                    ]
-                },
-                // {
-                //     header: [
-                //         "Midlothian, VA",
-                //         "PIE Tech",
-                //         "Summer 2016"
-                //     ],
-                //     bullets: [
-                //         "Created several single page web-apps using the Aurelia framework"
-                //     ]
-                // },
-                {
-                    header: [
-                        "Richmond, VA",
-                        "UPS Freight",
-                        "Summer 2015"
-                    ],
-                    bullets: [
-                        "Created an internal-use full stack web application with the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security"
-                    ]
-                }
+               
+                
             ]
         },
         {
             header: ["Education"],
             subsections: [{
                     header: [
-                        "Richmond, VA",
-                        "Virginia Commonwealth University",
-                        "Fall 2014 - May 2018"
+                        "Virginia State University",
+                        "Fall 2018 - May 2021"
                     ],
                     bullets: [
-                        "Graduated with a Bachelor of Science in Computer Science, Magna Cum Laude",
+                        "Graduated with a Bachelor of Science in Economics, Summa Cum Laude",
                         "Vice President of Computer Science Student Advisory Board", [
                             "~Helped the department choose new faculty members",
                             "~Helped out with events, such as local hack day, for prospective and current computer science students"
