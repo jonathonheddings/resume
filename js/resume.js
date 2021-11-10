@@ -80,7 +80,7 @@ function viewModel() {
                 }
             ]
         },
-        
+    ] 
         /*{
             header: ["Prominent Projects"],
             subsections: [{
@@ -223,4 +223,4 @@ function viewModel() {
         }
     ]
 };
-*/
+*/}
