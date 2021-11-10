@@ -13,8 +13,8 @@ function viewModel() {
             subsections: [{
                     header: [
                         "Freelance Editor//Social Media Administrator",
-                        "At How-To-Geek LLC"
-                        "July 2019 - Present"
+                        "At How-To-Geek LLC",
+                        "July 2019 - Present",
                         "Website: https://www.reviewgeek.com/author/jonathonheddings/"
 
                     ],
@@ -31,7 +31,7 @@ function viewModel() {
                     
                     ],
                     bullets: [
-                        "Managed a group of 10 to 20 employees depending on the year, that included hiring, training, and day to day activities.  "
+                        "Managed a group of 10 to 20 employees depending on the year, that included hiring, training, and day to day activities.  ",
                             "Managed inventory, food and labor costs, kept track of our profit and loss statements, and implemented policies to correct problems",
                             "Learned how to spin pizzas with just one hand"
                     ]
