@@ -15,8 +15,6 @@ function viewModel() {
                         "Freelance Editor//Social Media Administrator",
                         "At How-To-Geek LLC",
                         "July 2019 - Present",
-                        "Website: https://www.reviewgeek.com/author/jonathonheddings/"
-
                     ],
                     bullets: [
                         "Written 40+ articles on consumer products and various techy things for a popular consumer website.",
@@ -39,8 +37,7 @@ function viewModel() {
                 
                 {
                     header: [
-                        "Economics Internship",
-                        "Virginia's Gateway Region",
+                        "Virginia's Gateway Region Economics Internship",
                         "March 2021 - June 2021"
                     ],
                     bullets: [
@@ -61,21 +58,22 @@ function viewModel() {
                         "Fall 2018 - May 2021"
                     ],
                     bullets: [
-                        "Graduated with a Bachelor of Science in Economics, Summa Cum Laude",
-                        "Vice President of Computer Science Student Advisory Board"
+                        "Graduated with a Bachelor of Science in Economics, Magna Cum Laude",
                     
                     ],
            
                 },
                 {
                     header: [
-                        "Alexandria, VA",
-                        "Thomas Jefferson HS for Science and Technology",
-                        "2009 - 2013"
+                    
+                        "Mountain Vista Governor's School For Math, Science, and Technology",
+                        "2015 - 2017 (HS Junior and Senior Year)"
                     ],
                     bullets: [
-                        "4.14 GPA",
-                        "Ranked the best public high school in the nation by US news from 2007-2013"
+                        
+                        "Made it to the State Championships with our Vex Robotics Team",
+                        "Won First Place in Radfords, RUSecure CTF challenge in 2016"
+                        
                     ]
                 }
             ]
